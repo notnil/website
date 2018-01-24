@@ -65,7 +65,7 @@ googleAnalytics = ""
         [[params.services.list]]
 			icon = "fa-comments"
 			title = "Natural Language Processing"
-			description = "Fight spam or analyse social media streams for societal tends!"
+			description = "Fight spam or analyze social media streams for societal tends!"
 
 		[[params.services.list]]
             icon = "fa-line-chart"
@@ -75,7 +75,7 @@ googleAnalytics = ""
         [[params.services.list]]
             icon = "fa-search"
             title = "Anomaly Detection"
-            description = "Detect suspecious activity and login attempts!"
+            description = "Detect suspicious activity and login attempts!"
 
 
     # Portfolio modals
