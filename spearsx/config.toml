@@ -1,0 +1,108 @@
+baseurl = "https://spearsx.com/"
+languageCode = "en-us"
+title = "SpearsX LLC"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "SpearsX LLC"
+	description = "AI and Machine Learning Consulting for Mobile and Web"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "SpearsX LLC"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Tech"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Embrace AI"
+		subtitle   = "Join the AI revolution and add intelligence to your mobile and web applications."
+		buttonText = "Contact Us"
+
+
+	# About section
+	[params.about]
+		headline    = "We specialize in AI"
+		description = "We help you use machine learning to build new products or enhance existing ones.  Whether its computer vision, natural language processing, predictive analytics, or anomaly detection we have the experience to make your products intelligent."  
+		buttonText  = "Contact Us"
+
+
+	# Service section
+	[params.services]
+		headline = "Tech"
+
+        [[params.services.list]]
+            icon = "fa-binoculars"
+            title = "Computer Vision"
+            description = "Detect faces, animals, and objects to understand the content of images!"
+
+        [[params.services.list]]
+			icon = "fa-comments"
+			title = "Natural Language Processing"
+			description = "Fight spam or analyse social media streams for societal tends!"
+
+		[[params.services.list]]
+            icon = "fa-line-chart"
+            title = "Predictive Analytics"
+            description = "Predict who is going to buy what next!"
+
+        [[params.services.list]]
+            icon = "fa-search"
+            title = "Anomaly Detection"
+            description = "Detect suspecious activity and login attempts!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Check out our latest project in Computer Vision"
+
+		[params.aside.button]
+			text = "Check out"
+			link = "//github.com/notnil/udacity-ml-capstone/blob/master/report.pdf"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project? Give us a call or send us an email to see if we can help!"
+		address = "PO Box 20310 #46589 Cheyenne, Wyoming 82003-7007"
+        phone = "304.986.5296"
+		email = "loganjspears@gmail.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
